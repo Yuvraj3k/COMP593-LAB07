@@ -7,6 +7,9 @@ Usage:
  python create_db.py
 """
 import os
+import sqlite3
+from datetime import datetime
+from faker import Faker
 
 # Determine the path of the database
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -18,7 +21,8 @@ def main():
 
 def create_people_table():
     """Creates the people table in the database"""
-    # TODO: Create function body
+    #  Create function body
+    
     # Hint: See example code in lab instructions entitled "Creating a Table"
     return
 
